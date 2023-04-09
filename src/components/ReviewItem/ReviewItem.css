@@ -41,6 +41,9 @@
     background-color: rgba(235, 87, 87, 0.3);
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .delete-icon {
