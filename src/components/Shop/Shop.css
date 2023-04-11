@@ -26,3 +26,16 @@
     border-radius: 4px;
     color: white;
 }
+
+/* mobile device responsive */
+@media screen and (max-width: 576px) {
+    .shop-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .products-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+        width: 70vw;
+    }
+}
