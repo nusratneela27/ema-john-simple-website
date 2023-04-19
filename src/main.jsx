@@ -17,6 +17,7 @@ import CheckOut from './components/CheckOut/CheckOut';
 import SignUp from './components/SignUp/SignUp';
 import AuthProvider from './components/Providers/AuthProvider';
 import PrivateRoute from './routes/PrivateRoute';
+import Error from './components/Error/Error';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path: 'signUp',
         element: <SignUp></SignUp>
+      },
+      {
+        path: '*',
+        element: <Error></Error>
       }
     ]
   }

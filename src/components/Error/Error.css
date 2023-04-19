@@ -1,0 +1,17 @@
+.error-container {
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.005em;
+    color: #2A414F;
+}
+
+.error-number {
+    border-right: 5px solid orange;
+    padding-right: 30px;
+}
+
+.border {
+    padding-left: 30px;
+}
