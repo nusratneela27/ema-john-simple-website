@@ -18,3 +18,8 @@ nav.header a {
 nav.header a:hover {
     color: orange;
 }
+
+.text-orange {
+    color: orange;
+    margin-left: 30px;
+}
